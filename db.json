@@ -1,0 +1,262 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Beras Premium Wangi 5 Kg",
+      "category": "Sembako",
+      "price": 75000,
+      "stock": 100,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Beras",
+      "description": "Beras pulen berkualitas tinggi dari padi pilihan, menghasilkan nasi yang wangi dan lezat untuk keluarga Anda."
+    },
+    {
+      "id": "2",
+      "name": "Minyak Goreng Sawit 2L",
+      "category": "Sembako",
+      "price": 34000,
+      "stock": 150,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Minyak+Goreng",
+      "description": "Minyak goreng jernih dari kelapa sawit pilihan, 2x penyaringan, cocok untuk segala jenis masakan."
+    },
+    {
+      "id": "3",
+      "name": "Gula Pasir Kristal 1 Kg",
+      "category": "Sembako",
+      "price": 16000,
+      "stock": 200,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Gula",
+      "description": "Gula murni tebu yang manis dan bersih, cocok untuk minuman dan bahan dasar membuat kue."
+    },
+    {
+      "id": "4",
+      "name": "Tepung Terigu 1 Kg",
+      "category": "Sembako",
+      "price": 13000,
+      "stock": 120,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Tepung",
+      "description": "Tepung terigu protein sedang, ideal untuk membuat aneka kue, roti, dan masakan lainnya."
+    },
+    {
+      "id": "5",
+      "name": "Garam Beryodium 500g",
+      "category": "Sembako",
+      "price": 5000,
+      "stock": 300,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Garam",
+      "description": "Garam meja dengan kandungan yodium untuk kesehatan."
+    },
+    {
+      "id": "6",
+      "name": "Kecap Manis Botol 600ml",
+      "category": "Sembako",
+      "price": 21000,
+      "stock": 90,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Kecap",
+      "description": "Kecap manis legendaris dengan rasa yang khas."
+    },
+    {
+      "id": "7",
+      "name": "Saus Sambal Botol 340ml",
+      "category": "Sembako",
+      "price": 15000,
+      "stock": 110,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Saus+Sambal",
+      "description": "Saus sambal dengan tingkat kepedasan yang pas."
+    },
+    {
+      "id": "8",
+      "name": "Kopi Hitam Sachet 10pcs",
+      "category": "Sembako",
+      "price": 15000,
+      "stock": 300,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Kopi",
+      "description": "Kopi bubuk instan dengan aroma dan rasa yang mantap."
+    },
+    {
+      "id": "9",
+      "name": "Teh Celup Kotak 25pcs",
+      "category": "Sembako",
+      "price": 8000,
+      "stock": 250,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Teh",
+      "description": "Teh celup praktis untuk dinikmati kapan saja."
+    },
+    {
+      "id": "10",
+      "name": "Santan Kara 200ml",
+      "category": "Sembako",
+      "price": 9000,
+      "stock": 180,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Santan",
+      "description": "Santan kelapa siap pakai untuk masakan lebih gurih."
+    },
+    {
+      "id": "11",
+      "name": "Mie Instan Goreng (5pcs)",
+      "category": "Makanan & Snack",
+      "price": 15000,
+      "stock": 250,
+      "imageUrl": "https://placehold.co/400x400/FEF2F2/991B1B?text=Mie+Instan",
+      "description": "Paket 5 bungkus mie goreng instan favorit semua orang."
+    },
+    {
+      "id": "12",
+      "name": "Keripik Kentang Original 160g",
+      "category": "Makanan & Snack",
+      "price": 22000,
+      "stock": 180,
+      "imageUrl": "https://placehold.co/400x400/FEF2F2/991B1B?text=Keripik",
+      "description": "Keripik kentang renyah dengan rasa original yang klasik."
+    },
+    {
+      "id": "13",
+      "name": "Biskuit Roma Kelapa 300g",
+      "category": "Makanan & Snack",
+      "price": 12000,
+      "stock": 150,
+      "imageUrl": "https://placehold.co/400x400/FEF2F2/991B1B?text=Biskuit",
+      "description": "Biskuit renyah dengan taburan kelapa asli."
+    },
+    {
+      "id": "14",
+      "name": "Coklat Silverqueen 65g",
+      "category": "Makanan & Snack",
+      "price": 14000,
+      "stock": 200,
+      "imageUrl": "https://placehold.co/400x400/FEF2F2/991B1B?text=Coklat",
+      "description": "Coklat susu dengan isian kacang mede yang lezat."
+    },
+    {
+      "id": "15",
+      "name": "Wafer Tango Coklat 130g",
+      "category": "Makanan & Snack",
+      "price": 9000,
+      "stock": 170,
+      "imageUrl": "https://placehold.co/400x400/FEF2F2/991B1B?text=Wafer",
+      "description": "Wafer renyah dengan krim coklat tebal di setiap lapisnya."
+    },
+    {
+      "id": "16",
+      "name": "Susu UHT Coklat 1L",
+      "category": "Minuman",
+      "price": 19000,
+      "stock": 90,
+      "imageUrl": "https://placehold.co/400x400/EFF6FF/1D4ED8?text=Susu",
+      "description": "Susu UHT rasa coklat yang nikmat dan bergizi."
+    },
+    {
+      "id": "17",
+      "name": "Air Mineral Botol 600ml",
+      "category": "Minuman",
+      "price": 3500,
+      "stock": 500,
+      "imageUrl": "https://placehold.co/400x400/EFF6FF/1D4ED8?text=Air+Mineral",
+      "description": "Air mineral murni dari sumber mata air pegunungan."
+    },
+    {
+      "id": "18",
+      "name": "Telur Ayam Omega-3 10 butir",
+      "category": "Produk Segar",
+      "price": 32000,
+      "stock": 80,
+      "imageUrl": "https://placehold.co/400x400/F0FDF4/166534?text=Telur",
+      "description": "Telur ayam kaya Omega-3, baik untuk kesehatan jantung dan otak."
+    },
+    {
+      "id": "19",
+      "name": "Apel Fuji Super 1 Kg",
+      "category": "Produk Segar",
+      "price": 45000,
+      "stock": 60,
+      "imageUrl": "https://placehold.co/400x400/F0FDF4/166534?text=Apel",
+      "description": "Apel Fuji dengan rasa manis, renyah, dan segar, kaya akan vitamin."
+    },
+    {
+      "id": "20",
+      "name": "Sabun Mandi Cair 450ml",
+      "category": "Perawatan Tubuh",
+      "price": 25000,
+      "stock": 90,
+      "imageUrl": "https://placehold.co/400x400/FEFBF6/7C2D12?text=Sabun",
+      "description": "Sabun mandi cair anti-bakteri untuk melindungi keluarga dari kuman."
+    },
+    {
+      "id": "21",
+      "name": "Popok Bayi M 34pcs",
+      "category": "Ibu & Anak",
+      "price": 65000,
+      "stock": 70,
+      "imageUrl": "https://placehold.co/400x400/ECFEFF/0E7490?text=Popok",
+      "description": "Popok bayi dengan daya serap tinggi dan permukaan lembut."
+    },
+    {
+      "id": "22",
+      "name": "Obat Maag Tablet",
+      "category": "Kesehatan",
+      "price": 12000,
+      "stock": 150,
+      "imageUrl": "https://placehold.co/400x400/F5F3FF/5B21B6?text=Obat",
+      "description": "Cepat meredakan sakit maag dan gejala asam lambung berlebih."
+    },
+    {
+      "id": "23",
+      "name": "Deterjen Bubuk 1.8kg",
+      "category": "Kebutuhan Rumah",
+      "price": 45000,
+      "stock": 75,
+      "imageUrl": "https://placehold.co/400x400/FFFBEB/B45309?text=Deterjen",
+      "description": "Deterjen bubuk dengan formula penghilang noda yang efektif."
+    },
+    {
+      "id": "4e7e",
+      "name": "Apel",
+      "category": "Sembako",
+      "price": 300000,
+      "stock": 80,
+      "imageUrl": "",
+      "description": "Apel malang"
+    }
+  ],
+  "cart": [
+    {
+      "id": "a50e",
+      "productId": 3,
+      "name": "Gula Pasir Kristal 1 Kg",
+      "price": 16000,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Gula",
+      "quantity": 1
+    },
+    {
+      "id": "f9c9",
+      "productId": "3",
+      "name": "Gula Pasir Kristal 1 Kg",
+      "price": 16000,
+      "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Gula",
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": "4ea6",
+      "customer": {
+        "name": "Namalengkap",
+        "phone": "081238123812",
+        "address": "Jl. Surabaya",
+        "paymentMethod": "cod"
+      },
+      "items": [
+        {
+          "id": "1697",
+          "productId": 3,
+          "name": "Gula Pasir Kristal 1 Kg",
+          "price": 16000,
+          "imageUrl": "https://placehold.co/400x400/F3F4F6/1F2937?text=Gula",
+          "quantity": 1
+        }
+      ],
+      "total": 31000,
+      "status": "Baru",
+      "createdAt": "2025-06-18T02:17:16.477Z"
+    }
+  ]
+}
