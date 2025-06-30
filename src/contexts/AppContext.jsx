@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect, useCallback } from 'react';
 
 export const AppContext = createContext();
-const API_URL = 'http://localhost:3001';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 
 export const AppProvider = ({ children }) => {
     const [page, setPage] = useState({ name: 'home', params: {} });
