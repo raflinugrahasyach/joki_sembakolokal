@@ -2,29 +2,29 @@ const path = require('path');
 const fs = require('fs');
 
 module.exports = (req, res) => {
-  // Menemukan path ke db.json. __dirname akan menunjuk ke direktori 'api'.
-  // path.join akan membuat path yang benar: /var/task/api/../db.json -> /var/task/db.json
+  // Path ke db.json tetap sama
   const dbPath = path.join(__dirname, '..', 'db.json');
-
+  
   try {
     const fileData = fs.readFileSync(dbPath, 'utf8');
     const db = JSON.parse(fileData);
 
-    // Memeriksa URL permintaan untuk menentukan data apa yang harus dikembalikan
-    // Contoh: req.url bisa berupa '/api/products' atau '/api/cart'
-    const key = req.url.split('/')[2]; // Mengambil 'products', 'cart', dll.
+    // Ambil path dari query parameter yang dikirim oleh vercel.json
+    // Contoh: req.query.path akan berisi 'products', 'cart', dll.
+    const resourceKey = req.query.path;
 
-    if (key && db[key]) {
-      // Jika ada key yang cocok di db.json (misal: "products"), kirim data tersebut
-      res.status(200).json(db[key]);
-    } else if (key) {
-      // Jika key diminta tapi tidak ada, kirim error 404
-      res.status(404).json({ error: `Data for '${key}' not found.` });
+    if (resourceKey && db[resourceKey]) {
+      // Jika resource (misal: 'products') ada di database, kirim datanya
+      res.status(200).json(db[resourceKey]);
+    } else if (resourceKey) {
+      // Jika resource diminta tapi tidak ada di db.json
+      res.status(404).json({ error: `Resource '${resourceKey}' not found.` });
     } else {
-      // Jika hanya '/api' yang diminta, kirim seluruh database
+      // Jika tidak ada path spesifik (request hanya ke /api), kirim seluruh DB
+      // Ini menjaga fungsionalitas json-server sebelumnya
       res.status(200).json(db);
     }
   } catch (error) {
-    res.status(500).json({ error: 'Failed to read or parse database file.', details: error.message });
+    res.status(500).json({ error: 'Failed to process request.', details: error.message });
   }
 };
