@@ -29,9 +29,9 @@ const Footer = () => {
                     <div>
                         <h4 className="font-bold text-white">Hubungi Kami</h4>
                         <ul className="mt-4 space-y-2 text-sm">
-                            <li className="text-slate-400">Jl. Pahlawan No. 10, Surabaya</li>
+                            <li className="text-slate-400">43MM+8PG, Jalan, Babat, Lais, Musi Banyuasin Regency, South Sumatra 30755</li>
                             <li className="text-slate-400">halo@sembakolokal.id</li>
-                            <li className="text-slate-400">(031) 555-1234</li>
+                            <li className="text-slate-400">081279592862</li>
                         </ul>
                     </div>
 
